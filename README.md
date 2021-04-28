@@ -13,6 +13,8 @@ Project was created for learning Django and creating web pages.
 Project is created with:
 * Python
 * Django
+* HTML
+* CSS
 
 ## Installation
 1) Create virtual environment
