@@ -22,14 +22,36 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Endrju Blog</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-              <a class="nav-item nav-link" href="{% url 'blog-about' %}">About me</a>
+<!--          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Endrju Blog</a>-->
+<!--          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--          <span class="navbar-toggler-icon"></span>-->
+<!--          </button>-->
+<!--          <div class="collapse navbar-collapse" id="navbarToggle">-->
+<!--            <div class="navbar-nav mr-auto">-->
+<!--              <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>-->
+<!--              <a class="nav-item nav-link" href="{% url 'blog-about' %}">About me</a>-->
+             <ul class="navbar-nav mr-auto">
+                 <li>
+                     <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Endrju Blog</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-item nav-link" href="{% url 'blog-about' %}">About me</a>
+                 </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Web projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="{% url 'blog-tictactoe' %}">Tic Tac Toe</a>
+                      <a class="dropdown-item" href="#">TODO</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="https://github.com/Endrju00/Django-Blog">GitHub</a>
+                    </div>
+                  </li>
+                </ul>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">

@@ -17,4 +17,6 @@ urlpatterns = [
     path('post/<int:pk>/update/', PostUpdateView.as_view(), name='post-update'),
     path('post/<int:pk>/delete/', PostDeleteView.as_view(), name='post-delete'),
     path('about/', views.about, name='blog-about'),
+    path('tic-tac-toe/', views.tictactoe, name='blog-tictactoe'),
+    path('tic-tac-toe/check/', views.checkbtn, name="check")
 ]
