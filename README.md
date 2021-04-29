@@ -47,4 +47,9 @@ Project is created with:
 * **About me** 
 ![](django_project/media/about-me.jpg)
 
+* **Smaller web projects**
+* * Tic Tac Toe
+![](django_project/media/tictactoe.jpg)
+
+
 
