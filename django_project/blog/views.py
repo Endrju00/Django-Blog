@@ -114,7 +114,7 @@ def resetGrid():
         [4, 5, 6],
         [7, 8, 9], 0
     ]
-    colors = [['-outline-dark', '-outline-dark', '-outline-dark', ] for _ in range(3)]
+    colors = [['-warning', '-warning', '-warning', ] for _ in range(3)]
 
 
 def checkbtn(request):
