@@ -7,7 +7,7 @@
     <!--Buttons-->
 
     <p>
-        <form action="{% url 'check' %}" method="get">
+        <form action="{% url 'tictactoe-check' %}" method="get">
             <div class="d-grid gap-2 d-md-block">
                 <input type="submit" value={{ btn1 }} name="btn1" class="btn btn-primary btn{{ col1 }} btn-lg mr-2"
                        style="height: 120px; width: 120px;">
@@ -20,7 +20,7 @@
     </p>
 
     <p>
-            <form action="{% url 'check' %}" method="get">
+            <form action="{% url 'tictactoe-check' %}" method="get">
                 <div class="d-grid gap-2 d-md-block">
                     <input type="submit" value={{ btn4 }} name="btn4" class="btn btn-primary btn{{ col4 }} btn-lg mr-2"
                            style="height: 120px; width: 120px;">
@@ -33,7 +33,7 @@
     </p>
 
     <p>
-            <form action="{% url 'check' %}" method="get">
+            <form action="{% url 'tictactoe-check' %}" method="get">
                 <div class="d-grid gap-2 d-md-block">
                     <input type="submit" value={{ btn7 }} name="btn7" class="btn btn-primary btn{{ col7 }} btn-lg mr-2"
                            style="height: 120px; width: 120px;">
@@ -45,6 +45,6 @@
             </form>
     </p>
 
-<a href="{% url 'blog-tictactoe' %}" class="btn btn-danger " type="submit" style="width: 385px;">Reset</a>
+<a href="{% url 'tictactoe' %}" class="btn btn-danger " type="submit" style="width: 385px;">Reset</a>
 
 {% endblock content %}
