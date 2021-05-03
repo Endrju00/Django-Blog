@@ -1,0 +1,43 @@
+{% block content %}
+    <p>
+        <form action="{% url 'tictactoe-check' %}" method="get">
+            <div class="d-grid gap-2 d-md-block">
+                <input type="submit" value={{ btn1 }} name="btn1" class="btn btn-primary btn{{ col1 }} btn-lg mr-2"
+                       style="height: 120px; width: 120px;">
+                <input type="submit" value={{ btn2 }} name="btn2" class="btn btn-primary btn{{ col2 }} btn-lg mr-2"
+                       style="height: 120px; width: 120px;">
+                <input type="submit" value={{ btn3 }} name="btn3" class="btn btn-primary btn{{ col3 }} btn-lg mr-2"
+                       style="height: 120px; width: 120px;">
+            </div>
+        </form>
+    </p>
+
+    <p>
+            <form action="{% url 'tictactoe-check' %}" method="get">
+                <div class="d-grid gap-2 d-md-block">
+                    <input type="submit" value={{ btn4 }} name="btn4" class="btn btn-primary btn{{ col4 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                    <input type="submit" value={{ btn5 }} name="btn5" class="btn btn-primary btn{{ col5 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                    <input type="submit" value={{ btn6 }} name="btn6" class="btn btn-primary btn{{ col6 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                </div>
+            </form>
+    </p>
+
+    <p>
+            <form action="{% url 'tictactoe-check' %}" method="get">
+                <div class="d-grid gap-2 d-md-block">
+                    <input type="submit" value={{ btn7 }} name="btn7" class="btn btn-primary btn{{ col7 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                    <input type="submit" value={{ btn8 }} name="btn8" class="btn btn-primary btn{{ col8 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                    <input type="submit" value={{ btn9 }} name="btn9" class="btn btn-primary btn{{ col9 }} btn-lg mr-2"
+                           style="height: 120px; width: 120px;">
+                </div>
+            </form>
+    </p>
+
+<a href="{% url 'tictactoe' %}" class="btn btn-danger " type="submit" style="width: 385px;">Reset</a>
+
+{% endblock content %}
