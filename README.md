@@ -4,10 +4,11 @@
 * [Technologies](#technologies)
 * [Installation](#installation)
 * [Screenshots](#screenshots)
+* [Course](#course)
 
 
 ## General info
-Project was created for learning Django and creating web pages.
+Project was created for learning Django and creating web applications.
 	
 ## Technologies
 Project is created with:
@@ -34,11 +35,12 @@ Project is created with:
    ```
    pip install -r requirments.txt
    ```
-3) Run django
+3) Go to django_project
+4) Run django
     ```
     python manage.py runserver
     ```
-4) To check your application go to [localhost](http://127.0.0.1:5000/)
+5) To check your application go to [localhost](http://127.0.0.1:5000/)
 
 ## Screenshots
 * **Home Page** 
@@ -51,5 +53,6 @@ Project is created with:
 * * Tic Tac Toe
 ![](django_project/media/tictactoe.jpg)
 
-
+## Course
+Directory named Fullstack Web Developer Bootcamp includes files from course bought on [Udemy](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/).
 
