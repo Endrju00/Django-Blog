@@ -1,0 +1,34 @@
+#heading{
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  border-spacing: 15px;
+}
+
+th{
+  height: 500px;
+  width: 225px;
+}
+
+#first{
+  background-color: #264653;
+}
+
+#second{
+  background-color: #2a9d8f;
+}
+
+#third{
+  background-color: #e9c46a;
+}
+
+#fouth{
+  background-color: #f4a261;
+}
+
+#fifth{
+  background-color: #e76f51;
+}
