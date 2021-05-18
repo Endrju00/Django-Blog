@@ -52,7 +52,10 @@ Project is created with:
 * **Smaller web projects**
 * * Tic Tac Toe
 ![](django_project/media/tictactoe.jpg)
-
+* * Coffe Lover Project
+![](django_project/media/coffee1.jpg)
+![](django_project/media/coffee2.jpg)
+![](django_project/media/coffee3.jpg)
 ## Course
 Directory named Fullstack Web Developer Bootcamp includes files from course bought on [Udemy](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/).
 
