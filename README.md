@@ -16,6 +16,7 @@ Project is created with:
 * Django
 * HTML
 * CSS
+* JS
 
 ## Installation
 1) Create virtual environment
