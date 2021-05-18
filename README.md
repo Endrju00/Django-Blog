@@ -52,7 +52,7 @@ Project is created with:
 * **Smaller web projects**
 * * Tic Tac Toe
 ![](django_project/media/tictactoe.jpg)
-* * Coffe Lover Project
+* * Coffe Lover Project (project made as a part of the course)
 ![](django_project/media/coffee1.jpg)
 ![](django_project/media/coffee2.jpg)
 ![](django_project/media/coffee3.jpg)
