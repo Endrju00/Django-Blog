@@ -57,6 +57,9 @@ Project is created with:
 ![](django_project/media/coffee1.jpg)
 ![](django_project/media/coffee2.jpg)
 ![](django_project/media/coffee3.jpg)
+* * Connect Four (project made as a part of the course)
+![](django_project/media/connectfour1.jpg)
+![](django_project/media/connectfour2.jpg)
 ## Course
 Directory named Fullstack Web Developer Bootcamp includes files from course bought on [Udemy](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/).
 
