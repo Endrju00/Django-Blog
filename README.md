@@ -8,7 +8,7 @@
 
 
 ## General info
-Project was created for learning Django and creating web applications.
+Project created for the purpose of learning technologies related to web applications (HTML, CSS, JavaScript, Django). It is a blog with the ability to log in, add a profile picture and add posts. The tic-tac-toe game is available in the Web projects tab - the user's opponent selects the fields randomly, and after winning / losing / drawing an appropriate message appears. There is also a Full Stack Web Developer Bootcamp directory in the repository, which contains files and projects / tasks from the course I have been working on on the Udemy platform.
 	
 ## Technologies
 Project is created with:
