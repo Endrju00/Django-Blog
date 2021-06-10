@@ -17,6 +17,8 @@ Project is created with:
 * HTML
 * CSS
 * JS
+* jQuery
+* Bootstrap
 
 ## Installation
 1) Create virtual environment
