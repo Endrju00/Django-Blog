@@ -3,23 +3,36 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <title>Users</title>
   </head>
   <body>
-    <h1>Users</h1>
-    {% if users %}
+    <div class="container">
+      <h1>Please sign up here!</h1>
+      <form method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" class='btn btn-primary' value="Submit">
+      </form>
 
-      <ol>
-        {% for person in users %}
-        <li>User info</li>
-          <ul>
-            <li>First Name: {{ person.first_name }}</li>
-            <li>Last Name: {{ person.second_name }}</li>
-            <li>Email: {{ person.email }}</li>
-          </ul>
+      <h2>Users</h2>
 
-          {% endfor %}
-      </ol>
-    {% endif %}
+      {% if users %}
+
+        <ol>
+          {% for person in users %}
+          <li>User info</li>
+            <ul>
+              <li>First Name: {{ person.first_name }}</li>
+              <li>Last Name: {{ person.second_name }}</li>
+              <li>Email: {{ person.email }}</li>
+            </ul>
+
+            {% endfor %}
+        </ol>
+      {% endif %}
+    </div>
   </body>
 </html>
